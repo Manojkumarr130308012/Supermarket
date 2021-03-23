@@ -1,0 +1,240 @@
+<resources>
+
+    <style name="AppTheme" parent="BaseTheme" />
+
+    <style name="BaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:actionModeBackground">@color/blue_grey_600</item>
+    </style>
+
+    <style name="Gold.Small.AppCompatRatingBar" parent="Base.Widget.AppCompat.RatingBar.Indicator">
+        <item name="android:minHeight">25dp</item>
+        <item name="android:maxHeight">40dp</item>
+        <item name="colorControlNormal">@color/grey_40</item>
+        <item name="colorControlActivated">@color/yellow_800</item>
+    </style>
+
+    <style name="EditText.White" parent="@style/AppTheme">
+        <item name="colorControlActivated">@android:color/white</item>
+        <item name="colorControlHighlight">@android:color/white</item>
+        <item name="colorControlNormal">@color/grey_10</item>
+    </style>
+
+    <style name="EditText.White.Hint" parent="@style/EditText.White">
+        <item name="colorAccent">@android:color/white</item>
+        <item name="android:textColorHint">@color/grey_10</item>
+    </style>
+
+
+    <style name="Theme.Rating" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/grey_40</item>
+        <item name="colorControlActivated">@color/yellow_800</item>
+    </style>
+
+    <style name="Theme.Rating.Red" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/grey_60</item>
+        <item name="colorControlActivated">@color/red_ratingbar</item>
+    </style>
+
+    <style name="Theme.Rating.Grey" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/grey_40</item>
+        <item name="colorControlActivated">@color/grey_60</item>
+    </style>
+
+    <style name="progressBarBlue" parent="@style/Theme.AppCompat">
+        <item name="colorControlNormal">@color/grey_40</item>
+        <item name="colorControlActivated">@color/yellow_800</item>
+    </style>
+
+    <style name="BottomNavigationView" parent="@style/TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">9sp</item>
+    </style>
+
+    <style name="BottomNavigationView.Active" parent="@style/TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="progressBarGreen" parent="@style/Theme.AppCompat">
+        <item name="colorControlNormal">#5C2FA5</item>
+        <item name="colorControlActivated">#0EFF14</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!--style for ripple library-->
+    <style name="RippleStyleWhite">
+        <item name="mrl_rippleOverlay">true</item>
+        <item name="mrl_rippleColor">#80FFFFFF</item>
+        <item name="mrl_rippleHover">true</item>
+        <item name="mrl_rippleAlpha">0.2</item>
+    </style>
+
+    <style name="Yellow.Small.AppCompatRatingBar" parent="Base.Widget.AppCompat.RatingBar.Small">
+        <item name="colorControlNormal">@color/grey_60</item>
+        <item name="colorControlActivated">@color/yellow_600</item>
+    </style>
+
+    <style name="Green.Small.AppCompatRatingBar" parent="Base.Widget.AppCompat.RatingBar.Small">
+        <item name="colorControlNormal">@color/grey_60</item>
+        <item name="colorControlActivated">@color/light_green_400</item>
+    </style>
+
+    <style name="Red.Small.AppCompatRatingBar" parent="Base.Widget.AppCompat.RatingBar.Small">
+        <item name="colorControlNormal">@color/grey_60</item>
+        <item name="colorControlActivated">@color/red_ratingbar</item>
+    </style>
+
+    <style name="Grey.Small.AppCompatRatingBar" parent="Base.Widget.AppCompat.RatingBar.Small">
+        <item name="colorControlNormal">@color/grey_40</item>
+        <item name="colorControlActivated">@color/grey_60</item>
+    </style>
+
+    <style name="TextAppearance.Medium.Bold" parent="@style/TextAppearance.AppCompat.Medium">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="RippleStyleBlack" parent="RippleStyleWhite">
+        <item name="mrl_rippleColor">#8096989A</item>
+    </style>
+
+    <style name="TextAppearance.Subhead.Bold" parent="@style/TextAppearance.AppCompat.Subhead">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Toolbar.Light" parent="@style/AppTheme">
+        <item name="colorControlNormal">@color/grey_60</item>
+        <item name="android:textColorPrimary">@color/grey_60</item>
+    </style>
+
+
+
+    <style name="EditTextHint" parent="TextAppearance.AppCompat">
+        <item name="colorAccent">@android:color/white</item>
+        <item name="android:textColorHint">@color/grey_10</item>
+        <item name="colorControlNormal">@color/grey_10</item>
+        <item name="colorControlActivated">@color/grey_10</item>
+        <item name="colorControlHighlight">@color/grey_10</item>
+    </style>
+
+    <style name="OrangeEditText" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorControlNormal">@color/red_A200</item>
+        <item name="colorControlActivated">@color/orange_300</item>
+        <item name="colorControlHighlight">@color/orange_500</item>
+    </style>
+
+    <style name="MainColor.AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Color Primary will be toolbar color -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!-- Color Primary Dark will be default status bar color -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="GreenColor.AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Color Primary will be toolbar color -->
+        <item name="colorPrimary">@color/green_500</item>
+        <!-- Color Primary Dark will be default status bar color -->
+        <item name="colorPrimaryDark">@color/green_500</item>
+    </style>
+
+    <style name="White.AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Color Primary will be toolbar color -->
+        <item name="colorPrimary">@color/overlay_light_90</item>
+        <!-- Color Primary Dark will be default status bar color -->
+        <item name="colorPrimaryDark">@color/overlay_light_90</item>
+    </style>
+
+    <style name="Yellow.AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Color Primary will be toolbar color -->
+        <item name="colorPrimary">@color/yellow_400</item>
+        <!-- Color Primary Dark will be default status bar color -->
+        <item name="colorPrimaryDark">@color/yellow_400</item>
+    </style>
+
+
+    <style name="Grey_5.AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Color Primary will be toolbar color -->
+        <item name="colorPrimary">@color/grey_5</item>
+        <!-- Color Primary Dark will be default status bar color -->
+        <item name="colorPrimaryDark">@color/grey_5</item>
+    </style>
+
+    <style name="Blue.AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Color Primary will be toolbar color -->
+        <item name="colorPrimary">@color/blue_50</item>
+        <!-- Color Primary Dark will be default status bar color -->
+        <item name="colorPrimaryDark">@color/blue_50</item>
+    </style>
+
+    <style name="Transparent.AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Color Primary will be toolbar color -->
+        <item name="colorPrimary">@color/transparent</item>
+        <!-- Color Primary Dark will be default status bar color -->
+        <item name="colorPrimaryDark">@color/transparent</item>
+    </style>
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/grey_40</item>
+        <item name="colorControlActivated">@color/grey_60</item>
+    </style>
+
+    <style name="RatingBarBlue" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/grey_60</item>
+        <item name="colorControlActivated">@color/blue_500</item>
+    </style>
+
+    <style name="RatingBarYellow" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/grey_40</item>
+        <item name="colorControlActivated">@color/yellow_600</item>
+    </style>
+
+    <style name="MenuColor">
+        <item name="actionMenuTextColor">@color/grey_3</item>
+    </style>
+
+    <style name="SCBSwitch" parent="Theme.AppCompat.Light">
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">@color/colorPrimaryDark</item>
+
+        <!-- inactive thumb color -->
+        <item name="colorSwitchThumbNormal">@color/grey_20</item>
+
+        <!-- inactive track color (30% transparency) -->
+        <item name="android:colorForeground">#42221f1f
+        </item>
+    </style>
+
+    <style name="AccentSwitch" parent="Theme.AppCompat.Light">
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">@color/colorAccent</item>
+    </style>
+
+    <style name="SCBGreen" parent="Theme.AppCompat.Light">
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">@color/green_600</item>
+
+        <!-- inactive thumb color -->
+        <item name="colorSwitchThumbNormal">@color/grey_20</item>
+
+        <!-- inactive track color (30% transparency) -->
+        <item name="android:colorForeground">#42221f1f
+        </item>
+    </style>
+
+    <style name="TabLayoutTextStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000</item>
+    </style>
+
+    <color name="red_ratingbar">#F8615A</color>
+
+    <style name="AppTheme.Dialog.NoActionBar" parent="Theme.AppCompat.Light.Dialog">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+</resources>
