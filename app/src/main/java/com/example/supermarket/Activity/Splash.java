@@ -1,4 +1,4 @@
-package com.example.supermarket;
+package com.example.supermarket.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -14,6 +14,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.supermarket.Config.DBHelper;
+import com.example.supermarket.R;
 
 public class Splash extends AppCompatActivity {
     private static int SPLASH_SCREEN = 2500;

@@ -8,7 +8,7 @@
     android:fitsSystemWindows="true"
     android:gravity="center_horizontal"
     android:orientation="vertical"
-    tools:context=".Register">
+    tools:context=".Activity.Register">
 
 
 

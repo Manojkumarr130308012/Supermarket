@@ -1,8 +1,10 @@
-package com.example.supermarket;
+package com.example.supermarket.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.supermarket.R;
 
 public class Register extends AppCompatActivity {
 

@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/lightgray"
-    tools:context=".MainActivity">
+    tools:context=".Activity.MainActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/app_bar_layout"
@@ -330,7 +330,7 @@
                             android:text="Check your bank activities"
                             android:padding="5dp"
                             android:id="@+id/saledata"
-                            android:textColor="@android:color/darker_gray"/>
+                            android:textColor="#2196F3"/>
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -368,7 +368,8 @@
                             android:gravity="center"
                             android:text="Check your bank activities"
                             android:padding="5dp"
-                            android:textColor="@android:color/darker_gray"/>
+                            android:id="@+id/salesreturn"
+                            android:textColor="#2196F3"/>
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -414,7 +415,8 @@
                             android:gravity="center"
                             android:text="Check your bank activities"
                             android:padding="5dp"
-                            android:textColor="@android:color/darker_gray"/>
+                            android:id="@+id/purchase"
+                            android:textColor="#2196F3"/>
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -456,8 +458,9 @@
                             android:layout_height="wrap_content"
                             android:gravity="center"
                             android:padding="5dp"
+                            android:id="@+id/purchasereturn"
                             android:text="Check your bank activities"
-                            android:textColor="@android:color/darker_gray" />
+                            android:textColor="#2196F3" />
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>

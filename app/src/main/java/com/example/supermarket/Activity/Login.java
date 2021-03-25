@@ -1,4 +1,4 @@
-package com.example.supermarket;
+package com.example.supermarket.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -14,6 +14,7 @@ import android.widget.Toast;
 
 import com.example.supermarket.Config.DBHelper;
 import com.example.supermarket.Connection.ConnectionStr;
+import com.example.supermarket.R;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
